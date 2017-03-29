@@ -1,0 +1,29 @@
+<table class="container table-striped">
+    <tr>
+        <th>empty</th>
+        <th>id</th>
+        <th>name</th>
+        <th>surname</th>
+        <th>date of birth</th>
+        <th>mobile number</th>
+        <th>address (city + street + house number)</th>
+        <th>
+        <a href="#/edit">
+            <input type="button" form="selected" value="Edit selected"/>
+        </a>
+        </th>
+    </tr>
+    <tr ng-repeat="user in users" ng-model="user.hide" ng-hide="user.hide">
+        <td><input type="checkbox" ng-model="user.checked"
+            ng-change="userSelected()"></td>
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.surname}}</td>
+        <td>{{user.DoB}}</td>
+        <td>{{user.mobile}}</td>
+        <td>{{user.address}}</td>
+        <td><input type="button" value="Edit" ng-click="editButton(user.id)"></input>
+            <input type="button" value="Delete" ng-click = "deleteButton(user.id)"></input></td>
+    </tr>
+
+</table>

@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="text-center">
+        <h1>Edit User </h1>
+    </div>
+    <div ng-repeat="user in users">
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Id (nie powinno być edytowalne)</label>
+            </div>
+            <div class="col-sm-6">
+                <label>{{user.id}}</label>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Name</label>
+            </div>
+            <div class="col-sm-6">
+                <input type="text"  ng-model="user.name">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Surname</label>
+            </div>
+            <div class="col-sm-6">
+                <input type="text"  ng-model="user.surname">
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Date of Birth</label>
+            </div>
+            <div class="col-sm-6">
+                <input type="text"  ng-model="user.DoB">
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Mobile number</label>
+            </div>
+            <div class="col-sm-6">
+                <input type="text"  ng-model="user.mobile">
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-sm-6">
+                <label>Address (city, + street + house number)</label>
+            </div>
+            <div class="col-sm-6">
+                <input type="text"  ng-model="user.address">
+            </div>
+        </div>
+        <div class = "row">
+        <input type="button" value="Update" ng-click="updateButton(user)">
+        </div>
+
+    </div>
+    <a href="#/"><input type="button" value="back"></a>
+</div>

@@ -1,0 +1,43 @@
+[
+    {
+	"id": 0,
+	"name": "name0",
+	"surname": "surname0",
+	"DoB": "24-8-1981",
+    "mobile": 634523125,
+    "address": "Poznań, Długa 2"
+    },
+    {
+    "id": 1,
+    "name": "name1",
+    "surname": "surname1",
+    "DoB": "28-9-1983",
+    "mobile": 812312312,
+    "address": "Warsaw, Wołoska 22"
+    },
+    {
+	"id": 2,
+	"name": "name2",
+	"surname": "surname2",
+	"DoB": "01-6-1983",
+    "mobile": 987654412,
+    "address": "Warsaw, Wołoska 22"
+    },
+    {
+	"id": 3,
+	"name": "name3",
+	"surname": "surname3",
+	"DoB": "05-5-1978",
+    "mobile": 812312312,
+    "address": "Mińsk, Vulitsa 10"
+    },
+    {
+	"id": 4,
+	"name": "name4",
+	"surname": "surname4",
+	"DoB": "24-8-1980",
+    "mobile": 812312312,
+    "address": "Toruń, Toruńska 1"
+    }
+
+]
